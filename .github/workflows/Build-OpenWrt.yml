@@ -1,12 +1,12 @@
-name: OpenWRT_land_x86_64
+name: OpenWRT_Lienol_land_x86_64
 
 on: 
   release:
     types: [published]
 
-  #push:
-  #  branches: 
-  #    - master
+  push:
+    branches: 
+      - master
 
   #schedule:
   #  - cron: 0 8 * * 5
