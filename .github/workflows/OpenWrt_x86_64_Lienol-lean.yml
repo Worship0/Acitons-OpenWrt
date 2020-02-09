@@ -9,13 +9,13 @@
 name: OpenWrt_x86_64_Lienol-lean
 
 on:
-  release:
-    types: [published]
-  push:
-    branches:
-      - master
-    paths:
-      - '.config'
+ release:
+  types: [published]
+ push:
+  branches:
+   - master
+  paths:
+   - '.config'
 #  schedule:
 #    - cron: 0 8 * * 5
 #  watch:
