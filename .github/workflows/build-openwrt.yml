@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: OpenWrt_x86_64_Lienol-lean
+name: build openwrt
 
 on:
   release:
