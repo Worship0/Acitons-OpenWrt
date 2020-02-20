@@ -10,9 +10,9 @@ name: OpenWrt_x86_64_Lienol
 on:
   #schedule:
   #  - cron: 0 21 * * *
-  push:
-    branches: 
-      - master
+  #push:
+  #  branches: 
+  #    - master
 
 jobs:
   build:
